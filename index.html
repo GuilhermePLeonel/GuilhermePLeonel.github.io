@@ -1,38 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+
+    <style>
+        body {
+            color: whitesmoke;
+            text-align: center;
+            background-color: #21434D;
+        }
+
+        img {
+            border-radius: 20%;
+            background-color: #32B379;
+            padding: 3%;
+        }
+
+        h1 {
+            font-size: 60px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .infos {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .prim {
+            list-style:none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: #32B379;
+            padding: 2px;
+        }
+
+        .seg {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .ter {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: #32B379;
+            padding: 2px;
+        }
+
+        .qua {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .buttons {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #32B379;
+            border-radius: 400px;
+            color:whitesmoke;
+            text-decoration: none;
+           
+        }
+    </style>
 </head>
+
 <body>
     <h2><strong>Indíce</strong></h2>
-    <h3><a target="_blank" href="https://www.w3schools.com/html/html_blocks.asp">Clique aqui para ir para um site de referencias de HTML</a></h3>
-    
-    <h3><a href="#foto">clique aqui para ir ate a foto de Guilherme</a></h3>
-    <h3><a href="#hab">clique aqui para ir ate habilidades!</a></h3>
+    <ul  style="list-style:none;">
+            <li class="buttons"><h3><a target="_blank" href="https://www.w3schools.com/html/html_blocks.asp">
+            Tags de HTML!</a></h3></li>
+
+            <li class="buttons"><h3><a href="#foto"> Foto!</a></h3></li>
+            <li class="buttons"> <h3><a href="#hab"> Habilidades!</a></h3></li>
+    </ul>
     <br>
     <h1>Guilherme Pimenta Leonel</h1>
-    <hr>
-    <img id="foto" width="300px" src="https://scontent.fsdu29-1.fna.fbcdn.net/v/t1.6435-9/103395096_3020670211387642_7233716171942328836_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEXKWDTV3Syl3xLKAsjqHT9043ha5qjJOTTjeFrmqMk5J5zfIzWw2dmtpAxt9MPjslBN-9zTXcoc0zNdzi9u_iH&_nc_ohc=mmjaKh37tl8AX8TE8DJ&tn=fHKp-OoIng9q-BW-&_nc_ht=scontent.fsdu29-1.fna&oh=00_AT-Re47yLTppne-zbbV30Vrc24Fb1oNnFnizfvYxpIAfHQ&oe=623AB5A4" alt="imagem de guilherme">
+    
+    <img id="foto" width="500px"
+        src="https://scontent.fsdu29-1.fna.fbcdn.net/v/t1.6435-9/103395096_3020670211387642_7233716171942328836_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEXKWDTV3Syl3xLKAsjqHT9043ha5qjJOTTjeFrmqMk5J5zfIzWw2dmtpAxt9MPjslBN-9zTXcoc0zNdzi9u_iH&_nc_ohc=mmjaKh37tl8AX8TE8DJ&tn=fHKp-OoIng9q-BW-&_nc_ht=scontent.fsdu29-1.fna&oh=00_AT-Re47yLTppne-zbbV30Vrc24Fb1oNnFnizfvYxpIAfHQ&oe=623AB5A4"
+        alt="imagem de guilherme">
     <br>
     <h2>Resumo</h2>
-    <p>Olá, me chamo Guilherme, tenho 24 anos e estudo na Trybe para me tornar um Web Developer.
+    <p class="infos">Olá, me chamo Guilherme, tenho 24 anos e estudo na Trybe para me tornar um Web Developer.
         Atualmente moro no Rio de Janeiro, Nova Iguaçu.
     </p>
     <br>
     <h2 id="hab"><strong> Habilidades</id></strong></h2>
-    <ul>
-        <li>Possuo predisposição a <strong>comunicação</strong> seja com pessoas no ambiente de trabalho ou casualmente</li>
+    <ul style="list-style:none;">
+        <li class="prim">Possuo predisposição a <strong class="hab">comunicação</strong> seja com pessoas no ambiente de
+            trabalho ou
+            casualmente
+        </li>
         <br>
-        <li>Focado no processo, consigo ser <strong>maleável</strong> para poder conquistar meus objetivos</li>
+        <li class="seg">Focado no processo, consigo ser <strong>maleável</strong> para poder conquistar meus objetivos
+        </li>
         <br>
-        <li><strong>Aprendizado</strong> rapido, possuo facilidade em pegar novos conceitos</li>
-       <br>
-        <li>Sou uma pessoa muito serena e dificilmente me desespero, o que me da uma vantagem em <strong>situações de estresse</strong></li>
+        <li class="ter"><strong>Aprendizado</strong> rapido, possuo facilidade em pegar novos conceitos</li>
+        <br>
+        <li class="qua">Sou uma pessoa muito serena e dificilmente me desespero, o que me da uma vantagem em
+            <strong>situações de
+                estresse</strong></li>
     </ul>
     <br>
-    
+
 </body>
+
 </html>
